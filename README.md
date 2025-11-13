@@ -1,10 +1,1 @@
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
-# yelpCamp
+Blank Readme
