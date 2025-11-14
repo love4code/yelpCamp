@@ -9,7 +9,10 @@ const ejsMate = require('ejs-mate');
 const AppError = require('./AppError');
 
 mongoose
-  .connect('mongodb://127.0.0.1:27017/yelpCamp')
+  // .connect('mongodb://127.0.0.1:27017/yelpCamp')
+  .connect(
+    'mongodb+srv://mark1:MagJls2010@testapp1.q7ef2h1.mongodb.net/yelpCamp?retryWrites=true&w=majority',
+  )
   .then(() => {
     // brew services start mongodb-community to start mongoDB
     // brew services stop mongodb-community to stop mongoDB
